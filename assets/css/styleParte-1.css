@@ -1,0 +1,18 @@
+body{
+    background: black;
+}
+.container-flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.container-flex img{
+    width: 60%;
+    /* border: black solid 10px; */
+}
+
+.conBorder{
+    border: 2px solid red;
+}

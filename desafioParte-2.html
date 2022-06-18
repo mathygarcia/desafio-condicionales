@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/styleParte-2.css">
+    <title>Desafio parte 2</title>
+</head>
+<body>
+    <div class="container-flex">
+        <p id="p-1"><strong class="cantidad-stickers">puedes llevar hasta 10 en total</strong></p>
+        <div class="stickers-img-input">
+            <div class="stickers">
+                <img src="https://i.postimg.cc/02BX8x9c/soroysanji-removebg-preview.png" alt="img1">
+                <input id="input-1" name="Sticker1" type="Number" min="1" max="10" placeholder="Ingrese cantidad">
+            </div>
+            <div class="stickers">
+                <img src="https://i.postimg.cc/k4sw-LPjN/Zoro-Stickers-removebg-preview.png" alt="img2">
+                <input id="input-2" name="Sticker2" type="Number" min="1" max="10" placeholder="Ingrese cantidad">
+            </div>
+            <div class="stickers">
+                <img src="https://i.postimg.cc/PrWNHfbk/no-quiero-morir-removebg-preview.png" alt="img3">
+                <input id="input-3" name="Sticker3" type="Number" min="1" max="10" placeholder="Ingrese cantidad">
+            </div>
+        </div>
+        <p id="p-2 "><strong class="demasiados-stickers"></strong></p>
+        <button onclick="mostrarCantidadStickers()">Verificar</button>
+    </div>
+    <script src="assets/js/scriptParte-2.js"></script>
+</body>
+</html>
